@@ -6,7 +6,6 @@ Desenvolver uma automação utilizando Selenium para navegar pelo portal SIDRA/I
 
 A navegação foi realizada integralmente pela interface do portal, sem utilização da URL direta da tabela ou da API do SIDRA.
 
-
 # Tecnologias Utilizadas
 
 * Python 3
@@ -14,6 +13,18 @@ A navegação foi realizada integralmente pela interface do portal, sem utiliza�
 * WebDriver Manager
 * Google Chrome
 
+# Pré-requisitos
+
+Antes da execução, é necessário possuir instalado:
+
+- Python 3.10 ou superior
+- Google Chrome
+
+Opcional:
+
+- Git (caso deseje clonar o repositório)
+
+Caso não possua Git instalado, o projeto também pode ser baixado através da opção "Download ZIP" disponível no GitHub.
 
 # Instalação e Execução
 
@@ -23,6 +34,12 @@ A navegação foi realizada integralmente pela interface do portal, sem utiliza�
 git clone https://github.com/cervigrayskul/Desafio-IBGE-1209.git
 cd Desafio-IBGE-1209
 ```
+
+Ou, caso prefira:
+
+- Baixe o projeto em formato ZIP pelo GitHub.
+- Descompacte o arquivo.
+- Abra a pasta do projeto em sua IDE ou terminal.
 
 2. Instale as dependências:
 
@@ -36,11 +53,15 @@ pip install -r requirements.txt
 python desafio_ibge_1209.py
 ```
 
-Ao final da execução, o arquivo será salvo automaticamente em:
+O arquivo é salvo dentro da pasta `dados`, criada automaticamente na mesma localização em que o script é executado.
 
-dados/populacao_60mais_1209.csv
+Exemplo no Windows:
 
-A pasta "dados" é criada automaticamente caso não exista.
+```text
+C:\Users\usuario\Desafio-IBGE-1209\dados\populacao_60mais_1209.csv
+```
+
+O nome da pasta do usuário pode variar conforme o ambiente.
 
 
 # Estratégia Adotada
@@ -137,7 +158,7 @@ Durante os testes foram observadas variações ocasionais no carregamento de ele
 
 # Resultado
 
-Ao final da execução é gerado o arquivo:
+Ao final da execução é gerado automaticamente o arquivo:
 
 dados/populacao_60mais_1209.csv
 
