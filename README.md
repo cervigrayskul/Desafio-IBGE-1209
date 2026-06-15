@@ -19,8 +19,8 @@ A navegação foi realizada integralmente pela interface do portal, sem utiliza�
 
 1. Clone o repositório:
 
-git clone <url-do-repositorio>
-cd <repositorio>
+git clone https://github.com/cervigrayskul/Desafio-IBGE-1209.git
+cd Desafio-IBGE-1209
 
 2. Instale as dependências:
 
