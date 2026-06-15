@@ -19,16 +19,22 @@ A navegação foi realizada integralmente pela interface do portal, sem utiliza�
 
 1. Clone o repositório:
 
+```bash
 git clone https://github.com/cervigrayskul/Desafio-IBGE-1209.git
 cd Desafio-IBGE-1209
+```
 
 2. Instale as dependências:
 
+```bash
 pip install -r requirements.txt
+```
 
 3. Execute a automação através do terminal:
 
+```bash
 python desafio_ibge_1209.py
+```
 
 Ao final da execução, o arquivo será salvo automaticamente em:
 
